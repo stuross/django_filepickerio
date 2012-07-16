@@ -1,8 +1,3 @@
-Author
-======
-Stuart Ross (@stuross)
-
-
 INFO
 ======
 A custom field and widget to store filepicker urls in a Django project.
@@ -16,7 +11,9 @@ Usage
     When retreiving the data:
 
     URL = filepicker_url.0
+
     Name = filepicker_url.1
+
     Key = filepicker_url.2
 
 TODO
