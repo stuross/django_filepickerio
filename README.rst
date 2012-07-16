@@ -1,6 +1,6 @@
 INFO
 ======
-A custom field and widget to store filepicker urls in a Django project.
+A custom field and widget to store filepicker.io urls in a Django project.
 
 Usage
 ======
