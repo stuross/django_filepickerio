@@ -4,11 +4,11 @@ Stuart Ross (@stuross)
 
 
 INFO
-====
+======
 A custom field and widget to store filepicker urls in a Django project.
 
 Usage
-=====
+======
     In models.py just add the field:
 
     filepicker_url = FilePickerURLModelField()
@@ -20,5 +20,5 @@ Usage
     Key = filepicker_url.2
 
 TODO
-====
+======
     Use named properties instead of indices
