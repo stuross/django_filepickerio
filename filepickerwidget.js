@@ -12,7 +12,7 @@ $(document).ready(function(){
         $(picker_display[0]).click(function(){
             filepicker.getFile('image/*', {"modal": true}, function(url, metadata){
                 if( url && 'key' in metadata && 'filename' in metadata){
-                    file_url.val(url);
+                    file_url.val(encodeURIComponent(url));
                     file_name.val(metadata.filename);
                     file_key.val(metadata.key);
                     $(picker_display[1]).text(metadata.filename);
